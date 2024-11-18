@@ -8,11 +8,11 @@ export default function Home() {
       {/* Sidebar */}
       <SettingsSidebar />
 
-      {/* Email List Panel */}
-      <EmailListPanel />
-
-      {/* Main Email View */}
-      <EmailDetails />
+      {/* Content Area */}
+      <div className="flex flex-1"> 
+        <EmailListPanel />
+        <EmailDetails />
+      </div>
     </div>
   );
 }
