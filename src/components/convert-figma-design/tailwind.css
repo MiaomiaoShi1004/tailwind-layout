@@ -1,0 +1,258 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --blockquote-font-family: "Inter", Helvetica;
+  --blockquote-font-size: 16px;
+  --blockquote-font-style: italic;
+  --blockquote-font-weight: 400;
+  --blockquote-letter-spacing: 0px;
+  --blockquote-line-height: 24px;
+  --body-font-family: "Inter", Helvetica;
+  --body-font-size: 14px;
+  --body-font-style: normal;
+  --body-font-weight: 400;
+  --body-letter-spacing: 0px;
+  --body-line-height: 24px;
+  --body-medium-font-family: "Inter", Helvetica;
+  --body-medium-font-size: 14px;
+  --body-medium-font-style: normal;
+  --body-medium-font-weight: 500;
+  --body-medium-letter-spacing: 0px;
+  --body-medium-line-height: 24px;
+  --bright: 0px 8px 28px 0px rgba(243, 244, 246, 1);
+  --collection-1-gray-00: rgba(255, 255, 255, 1);
+  --collection-1-gray-100: rgba(243, 244, 246, 1);
+  --collection-1-gray-200: rgba(229, 231, 235, 1);
+  --collection-1-gray-300: rgba(209, 213, 219, 1);
+  --collection-1-gray-400: rgba(156, 163, 175, 1);
+  --collection-1-gray-50: rgba(249, 250, 251, 1);
+  --collection-1-gray-500: rgba(107, 114, 128, 1);
+  --collection-1-gray-600: rgba(75, 85, 99, 1);
+  --collection-1-gray-700: rgba(55, 65, 81, 1);
+  --collection-1-gray-800: rgba(31, 41, 55, 1);
+  --collection-1-gray-900: rgba(17, 24, 39, 1);
+  --collection-1-green-100: rgba(240, 250, 241, 1);
+  --collection-1-green-200: rgba(221, 244, 224, 1);
+  --collection-1-green-300: rgba(194, 235, 201, 1);
+  --collection-1-green-400: rgba(121, 210, 136, 1);
+  --collection-1-green-50: rgba(247, 252, 248, 1);
+  --collection-1-green-500: rgba(56, 168, 75, 1);
+  --collection-1-green-600: rgba(43, 130, 72, 1);
+  --collection-1-green-700: rgba(34, 103, 57, 1);
+  --collection-1-green-800: rgba(22, 65, 40, 1);
+  --collection-1-green-900: rgba(14, 42, 26, 1);
+  --collection-1-purple-100: rgba(243, 240, 250, 1);
+  --collection-1-purple-200: rgba(231, 225, 245, 1);
+  --collection-1-purple-300: rgba(213, 202, 237, 1);
+  --collection-1-purple-400: rgba(157, 129, 213, 1);
+  --collection-1-purple-50: rgba(249, 247, 252, 1);
+  --collection-1-purple-500: rgba(100, 60, 180, 1);
+  --collection-1-purple-600: rgba(71, 47, 142, 1);
+  --collection-1-purple-700: rgba(48, 36, 107, 1);
+  --collection-1-purple-800: rgba(25, 22, 65, 1);
+  --collection-1-purple-900: rgba(6, 2, 54, 1);
+  --collection-1-red-300: rgba(239, 68, 68, 1);
+  --collection-1-red-400: rgba(220, 38, 38, 1);
+  --detail-font-family: "Inter", Helvetica;
+  --detail-font-size: 12px;
+  --detail-font-style: normal;
+  --detail-font-weight: 500;
+  --detail-letter-spacing: 0px;
+  --detail-line-height: 20px;
+  --gray: 0px 8px 28px 0px rgba(229, 231, 235, 1);
+  --gray-small: 0px 4px 12px 0px rgba(229, 231, 235, 1);
+  --green: 0px 0px 12px 0px rgba(209, 235, 211, 0.8);
+  --h-1-font-family: "Inter", Helvetica;
+  --h-1-font-size: 48px;
+  --h-1-font-style: normal;
+  --h-1-font-weight: 800;
+  --h-1-letter-spacing: -0.5760000228881836px;
+  --h-1-line-height: 48px;
+  --h-2-font-family: "Inter", Helvetica;
+  --h-2-font-size: 30px;
+  --h-2-font-style: normal;
+  --h-2-font-weight: 600;
+  --h-2-letter-spacing: -0.225px;
+  --h-2-line-height: 36px;
+  --h-3-font-family: "Inter", Helvetica;
+  --h-3-font-size: 24px;
+  --h-3-font-style: normal;
+  --h-3-font-weight: 600;
+  --h-3-letter-spacing: -0.1440000057220459px;
+  --h-3-line-height: 32px;
+  --h-4-font-family: "Inter", Helvetica;
+  --h-4-font-size: 20px;
+  --h-4-font-style: normal;
+  --h-4-font-weight: 600;
+  --h-4-letter-spacing: -0.1px;
+  --h-4-line-height: 28px;
+  --inline-code-font-family: "Menlo", Helvetica;
+  --inline-code-font-size: 14px;
+  --inline-code-font-style: normal;
+  --inline-code-font-weight: 700;
+  --inline-code-letter-spacing: 0px;
+  --inline-code-line-height: 20px;
+  --large-font-family: "Inter", Helvetica;
+  --large-font-size: 18px;
+  --large-font-style: normal;
+  --large-font-weight: 600;
+  --large-letter-spacing: 0px;
+  --large-line-height: 28px;
+  --lead-font-family: "Inter", Helvetica;
+  --lead-font-size: 20px;
+  --lead-font-style: normal;
+  --lead-font-weight: 400;
+  --lead-letter-spacing: 0px;
+  --lead-line-height: 28px;
+  --light-gray: 0px 8px 28px 0px rgba(243, 244, 246, 1);
+  --list-font-family: "Inter", Helvetica;
+  --list-font-size: 16px;
+  --list-font-style: normal;
+  --list-font-weight: 400;
+  --list-letter-spacing: 0px;
+  --list-line-height: 24px;
+  --p-font-family: "Inter", Helvetica;
+  --p-font-size: 16px;
+  --p-font-style: normal;
+  --p-font-weight: 400;
+  --p-letter-spacing: 0px;
+  --p-line-height: 28px;
+  --p-ui-font-family: "Inter", Helvetica;
+  --p-ui-font-size: 16px;
+  --p-ui-font-style: normal;
+  --p-ui-font-weight: 400;
+  --p-ui-letter-spacing: 0px;
+  --p-ui-line-height: 24px;
+  --p-ui-medium-font-family: "Inter", Helvetica;
+  --p-ui-medium-font-size: 16px;
+  --p-ui-medium-font-style: normal;
+  --p-ui-medium-font-weight: 500;
+  --p-ui-medium-letter-spacing: 0px;
+  --p-ui-medium-line-height: 24px;
+  --small-font-family: "Inter", Helvetica;
+  --small-font-size: 14px;
+  --small-font-style: normal;
+  --small-font-weight: 500;
+  --small-letter-spacing: 0px;
+  --small-line-height: 14px;
+  --suble-semibold-font-family: "Inter", Helvetica;
+  --suble-semibold-font-size: 14px;
+  --suble-semibold-font-style: normal;
+  --suble-semibold-font-weight: 600;
+  --suble-semibold-letter-spacing: 0px;
+  --suble-semibold-line-height: 20px;
+  --subtle-font-family: "Inter", Helvetica;
+  --subtle-font-size: 14px;
+  --subtle-font-style: normal;
+  --subtle-font-weight: 400;
+  --subtle-letter-spacing: 0px;
+  --subtle-line-height: 20px;
+  --subtle-medium-font-family: "Inter", Helvetica;
+  --subtle-medium-font-size: 14px;
+  --subtle-medium-font-style: normal;
+  --subtle-medium-font-weight: 500;
+  --subtle-medium-letter-spacing: 0px;
+  --subtle-medium-line-height: 20px;
+  --table-head-font-family: "Inter", Helvetica;
+  --table-head-font-size: 16px;
+  --table-head-font-style: normal;
+  --table-head-font-weight: 700;
+  --table-head-letter-spacing: 0px;
+  --table-head-line-height: 24px;
+  --table-item-font-family: "Inter", Helvetica;
+  --table-item-font-size: 16px;
+  --table-item-font-style: normal;
+  --table-item-font-weight: 400;
+  --table-item-letter-spacing: 0px;
+  --table-item-line-height: 24px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 224 71% 4%;
+    --foreground: 213 31% 91%;
+
+    --muted: 223 47% 11%;
+    --muted-foreground: 215.4 16.3% 56.9%;
+
+    --accent: 216 34% 17%;
+    --accent-foreground: 210 40% 98%;
+
+    --popover: 224 71% 4%;
+    --popover-foreground: 215 20.2% 65.1%;
+
+    --border: 216 34% 17%;
+    --input: 216 34% 17%;
+
+    --card: 224 71% 4%;
+    --card-foreground: 213 31% 91%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 1.2%;
+
+    --secondary: 222.2 47.4% 11.2%;
+    --secondary-foreground: 210 40% 98%;
+
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+
+    --ring: 216 34% 17%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
